@@ -9,8 +9,8 @@ def fizzbuzz(num)
   } end
      elsif(num % 5 == 0){
     "Buzz";
-     } end 
+     } 
   else
     nil;
   end 
-end 
+ 
