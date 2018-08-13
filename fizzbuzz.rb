@@ -1,16 +1,16 @@
-def fizzbuzz(num)
-  if (num % 3 == 0){
-    if (num % 5 == 0) {
-      "FizzBuzz";
-    }
-    else{
-      "Fizz";
-    }
-  } end
-     elsif(num % 5 == 0){
-    "Buzz";
-     } 
-  else
-    nil;
-  end 
+def fizzbuzz(number)
+  if number % 3 == 0 && number % 5 == 0
+    return "FizzBuzz"
+    
+  elsif number % 3 == 0
+    return "Fizz"
+    
+  elsif number % 5 == 0
+    return "Buzz"
+    
+  end
+  
+  nil
+  
+end
  
