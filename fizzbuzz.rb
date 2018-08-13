@@ -6,10 +6,10 @@ def fizzbuzz(num)
     else{
       "Fizz";
     }
-  }
+  } end
      elsif(num % 5 == 0){
     "Buzz";
-     }
+     } end 
   else
     nil;
   end 
