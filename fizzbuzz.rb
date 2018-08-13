@@ -1,1 +1,3 @@
-def fizzbuzz(number)
+def fizzbuzz(num)
+  if num % 3 == 0 
+    
