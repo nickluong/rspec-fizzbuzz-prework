@@ -7,9 +7,7 @@ def fizzbuzz(num)
       "Fizz";
     }
   }
-  
-      
-  elsif num % 5 == 10 
+      )
     "Buzz";
   else 
     nil;
